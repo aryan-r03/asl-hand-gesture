@@ -118,10 +118,10 @@ def recognize_gesture(hand_landmarks, handedness):
         return "✊ FIST"
 
     if index_extended and extended_fingers_count == 1:
-        return "☝️ POINTING / ONE"
+        return "☝️ POINTING UP / ONE"
 
     if middle_extended and extended_fingers_count == 1:
-        return "🖕 GIVING THE GOOSE"
+        return "👇 POINTING DOWN"
 
     if index_extended and pinky_extended and extended_fingers_count == 2:
         return "🤘 ROCK ON"
